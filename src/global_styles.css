@@ -1,0 +1,60 @@
+/* Add application styles & imports to this file! */
+
+.display {
+  border: 1px solid lightgrey;
+  width: 150px;
+  height: 20px;
+  text-align: right;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: white;
+  line-height: 37.5px;
+
+}
+
+.button:hover {
+  background-color: white;
+
+}
+
+.num-buttons {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  padding: 5px;
+  padding-bottom: 0;
+  grid-template-columns: 37.5px 37.5px 37.5px 37.5px;
+
+}
+
+.results {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  padding-right: 5px;
+  padding-left: 5px;
+  grid-template-columns: 114.5px 37.5px ;
+}
+
+.button {
+  cursor: pointer;
+  border: 1px solid black ;
+  width: 37.5px ;
+  height: 37.5;
+  margin: 5px ;
+  text-align: center;
+  background-color: lightgrey;
+  line-height: 37.5px;
+}
+
+.button-igual{
+  width: 114.5px;
+}
+
+.calculator{
+  border: 1px solid black;
+  width: 165px;
+  padding: 20px;
+  background-color: rgb(184, 176, 231);
+
+}
